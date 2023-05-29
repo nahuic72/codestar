@@ -2,7 +2,7 @@
 import json
 from flask import Flask, Response
 import optparse
-
+# esto es un comentario
 application = Flask(__name__)
 
 @application.route('/', methods=['GET'])
